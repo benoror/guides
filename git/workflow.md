@@ -1,3 +1,6 @@
+\*Disclaimer: This is a simplified version of a Git workflow. For more
+detailed workflows take a look at [Gitflow: A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+
 ### Git workflow
 
 The central repo holds two main branches with an infinite lifetime:
