@@ -72,7 +72,7 @@ git push origin feature/my-feature-branch
 
 Open a Pull Request and ping project members for a code review.
 
-Rebase frequently to incorporate changes in develop.
+**Rebase frequently** to incorporate changes in develop.
 
 ````
 git checkout develop
@@ -113,13 +113,13 @@ git merge [branch]
 git push origin develop
 ````
 
-Delete your local feature branch.
+Optional: Delete your local feature branch.
 
 ````
 git branch -d [branch]
 ````
 
-Delete your remote feature branch.
+Optional: Delete your remote feature branch.
 
 ````
 git push origin :[branch]
