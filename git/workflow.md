@@ -81,6 +81,8 @@ git checkout [branch]
 git rebase develop
 <resolve conflicts>
 ````
+ 
+Here's a brief video on how to rebase feature branches: https://www.useloom.com/share/0bcbf05c3d5446eea5bd406973c5c75c
 
 Rebase your own feature branch to keep a clean history.
 
