@@ -20,7 +20,7 @@ to be released, all of the changes should be merged back into `master`. Therefor
 each time when changes are merged back into `master`, this is a new `PRODUCTION`
 release by definition.
 
-### Workflow by example
+### Workflow by example: Feature branch
 
 Create a local feature branch from develop for development.
 
@@ -72,6 +72,8 @@ git push origin feature/my-feature-branch
 
 Open a Pull Request and ping project members for a code review.
 
+#### Rebase frequently
+
 **Rebase frequently** your own feature branch to incorporate changes in develop and to keep a clean history.
 
 ````
@@ -105,6 +107,8 @@ An ugly commits log:
 * Fixed a typo
 * Another typo
 ````
+
+#### Merge when ready
 
 If everything's good, merge your branch to develop and push your changes.
 
