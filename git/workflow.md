@@ -1,7 +1,7 @@
 \*Disclaimer: This is a simplified version of a Git workflow. For more
 detailed workflows take a look at [Gitflow: A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
-## Git workflow
+# Git workflow
 
 The central repo holds two main branches with an infinite lifetime:
 
@@ -20,7 +20,7 @@ to be released, all of the changes should be merged back into `master`. Therefor
 each time when changes are merged back into `master`, this is a new `PRODUCTION`
 release by definition.
 
-### Feature branch
+## 📦 Feature branch
 
 Create a local feature branch from develop for development.
 
@@ -130,7 +130,7 @@ Optional: Delete your remote feature branch.
 git push origin :[branch]
 ````
 
-### 🔥Hotfix branch
+## 🔥 Hotfix branch
 
 Make you branch out of `master`
 
@@ -147,8 +147,6 @@ git merge hotifx/...
 git push origin master
 ```
 
-#### Merge to DEVELOP too
-
 Apply hotfix to `develop` (or release branch if present) as well:
 
 ```
@@ -156,10 +154,10 @@ git checkout hotifx/...
 git rebase develop
 git checkout develop
 git merge hotifx/...
-git push
+git push origin develop
 ```
 
-### Making a production-ready release
+## 🚀 Making a production-ready release
 
 Create the release branch out from develop.
 
