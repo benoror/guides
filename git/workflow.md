@@ -178,6 +178,7 @@ Create the release branch out from develop.
 
 ````
 # On branch develop
+git checkout develop
 git checkout -b release-[YYYMMDD]-[HHMM]
 ````
 
