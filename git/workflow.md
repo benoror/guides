@@ -157,6 +157,21 @@ git merge hotifx/...
 git push origin develop
 ```
 
+### **Optional* Before release
+
+In order to avoid `merge commits` in your history when 🔥hotfixes were made,  before release first rebase `master`:
+
+```
+git checkout master
+git rebase develop
+```
+
+Then you'll need to force push `master` at the end of the release:
+
+```
+git push -f origin master
+```
+
 ## 🚀 Making a production-ready release
 
 Create the release branch out from develop.
