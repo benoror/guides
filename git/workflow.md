@@ -166,7 +166,7 @@ git checkout master
 git rebase develop
 ```
 
-Then you'll need to force push `master` at the end of the release:
+**Afterwards** you'll need to force push `master` at the **end of the release**:
 
 ```
 git push -f origin master
